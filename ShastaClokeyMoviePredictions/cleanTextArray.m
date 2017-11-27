@@ -1,0 +1,20 @@
+function [array] = cleanTextArray(badArray)
+   returnArray = strrep(badArray,':','');
+   returnArray = strrep(returnArray,',','');
+   returnArray = strrep(returnArray,'(','');
+   returnArray = strrep(returnArray,')','');
+   returnArray = strrep(returnArray,'-','');
+   returnArray = strrep(returnArray,'.','');
+   returnArray = strrep(returnArray,'?','');
+   returnArray = strrep(returnArray,'{','');
+   returnArray = strrep(returnArray,'}','');
+   returnArray = strrep(returnArray,'/','');
+   returnArray = strrep(returnArray,'\','');
+   returnArray = strrep(returnArray,'"','');
+   returnArray = strrep(returnArray,';','');
+   returnArray = strrep(returnArray,'!','');
+   returnArray = strrep(returnArray,'_','');
+   returnArray = strrep(returnArray,'&','');
+   returnArray = strrep(returnArray,' ','');
+   array = returnArray;
+end

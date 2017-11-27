@@ -1,0 +1,6 @@
+To witness the magic of hollywood movie planning, take the following steps:
+
+1) Open the Project3Main.m file within the Project 3 folder
+
+2) Run the script and watch as our algorithms generate classifications, error rates, and 
+   tree visualizations for thier respective models. 
