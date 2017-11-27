@@ -1,0 +1,5 @@
+close(lin)
+close(pre)
+close(post)
+close(ridge)
+close(lasso)
