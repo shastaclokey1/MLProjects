@@ -1,0 +1,15 @@
+Here lies the list of steps, burried within the depths of github, required to slap sweet mustaches on George W. Bush!
+
+1) Move all pictures within folders titled 'bush pics #' into the main project folder.
+
+2) Open and run 'findingFacialFeatures.m' to utilize the power of the Viola Jones feature-recognition alg.
+
+3) Open and run 'findingStacheLocations.m' to generate the necessary data(.mat) files for stache locations.
+
+4) Open and run 'imageOverlay.m'. Witness the beauty as mustaches magically apear on the face of our former president.
+
+5) Open and run 'stacheNN.m' to train the convolution neural network which will be used to target and recognize staches.
+
+6) Open and run 'nnDisplay.m' to see how well(or poorly) the neural network performed at placing GW's new mustache
+
+7) Bask in the glory of mustache mania and spread the laughter!
